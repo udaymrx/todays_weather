@@ -39,13 +39,13 @@ class _MainPageState extends ConsumerState<MainPage>
         .addAnimatable(
             animatable: Tween<double>(begin: 240.0, end: -60.0),
             from: const Duration(milliseconds: 700),
-            to: const Duration(milliseconds: 1700),
+            to: const Duration(milliseconds: 2000),
             curve: Curves.ease,
             tag: "today-top")
         .addAnimatable(
             animatable: Tween<double>(begin: 800.0, end: 100.0),
-            from: const Duration(milliseconds: 1700),
-            to: const Duration(milliseconds: 2800),
+            from: const Duration(milliseconds: 2000),
+            to: const Duration(milliseconds: 3200),
             curve: Curves.ease,
             tag: "list-top")
         .animate(controller);

@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.today_weather">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    
    <application
         android:label="today_weather"
         android:name="${applicationName}"
